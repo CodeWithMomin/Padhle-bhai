@@ -22,17 +22,17 @@ main {
 }
 
 nav {
-  height: 50px;
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background: #fff;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .3);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .3);
 }
 
 nav ul {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 nav ul li {
@@ -41,17 +41,22 @@ nav ul li {
 }
 
 ul li:last-child {
-  margin-right: 3rem;
+  margin-right: 5rem;
 }
+
 
 .logo {
   margin-left: 3rem;
-  font-weight: bold;
-  color: #333;
+ 
+ width: 150px;
+ height: 100%;
 }
+
+
 
 a {
   color: #333;
+  font-size: 23px;
   font-weight: bold;
   text-decoration: none;
 }
@@ -73,3 +78,31 @@ footer {
   align-items: center;
   height: 40px;
 }
+
+.sidebar{
+ position: fixed;
+ top: 0;
+ right: 0;
+ height: 80vh;
+ width: 250px;
+ z-index: 999;
+ background-color: rgba(255, 255, 255, 0.038);
+ backdrop-filter: blur(15px);
+ box-shadow: -2px 0 2px rgba(0, 0, 0, 0.392);
+ display: none;
+ flex-direction: column;
+ align-items: flex-start;
+ justify-content: flex-start;
+ padding: 10px;
+
+ }
+ .sidebar li{
+  width:100%;
+  
+}
+.sidebar a{
+  width:100% ;
+}
+
+
+
