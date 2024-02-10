@@ -133,9 +133,7 @@ footer {
   li{
     margin-block:  1.6rem;
   }
-  a{
-    text-decoration:underline;
-  }
+  
 }
 
  /*  For Small Screen Mobile phones   */
@@ -151,6 +149,5 @@ footer {
   nav ul {
     top: 65.18px;
     height: calc(100vh - 65.18px);
-  }
- 
+  } 
 }
