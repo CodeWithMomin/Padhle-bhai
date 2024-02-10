@@ -8,7 +8,7 @@ hamMenuIcon.addEventListener("click", () => {
 });
 navLinks.forEach(navLinks => {
   navLinks.addEventListener("click", () => {
-    navBar.classList.remove("active");
+    //navBar.classList.remove("active");
     hamMenuIcon.classList.toggle("fa-times");
   });
 });
