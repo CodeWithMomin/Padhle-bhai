@@ -124,9 +124,7 @@ footer {
   li{
     margin-block:  1.6rem;
   }
-  a{
-    text-decoration:underline;
-  }
+  
 }
 
 @media only screen and (max-width: 575px) {
@@ -142,7 +140,5 @@ footer {
     top: 65.18px;
     height: calc(100vh - 65.18px);
   }
-  nav li:hover{
-    border-bottom: 1px solid black;
-  }
+
 }
