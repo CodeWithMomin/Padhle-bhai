@@ -16,8 +16,9 @@ html {
 header {
   position: fixed;
   width: 100%;
+  
   background-color: #fff;
-  padding: 3rem 5rem;
+  padding: 1rem 5rem;
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .2);
 }
 
@@ -25,6 +26,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 nav ul {
@@ -32,10 +34,17 @@ nav ul {
   display: flex;
   gap: 2rem;
 }
-
+#logo{
+  width: 200px;
+  height:65px ;
+  
+}
 nav a {
   font-size: 1.8rem;
   text-decoration: none;
+}
+li{
+  margin-inline: 30px;
 }
 
 nav a#logo {
@@ -49,7 +58,7 @@ nav ul a {
 }
 
 nav ul a:hover {
-  border-bottom: 2px solid #0066ff;
+  border-bottom: 1px solid #0066ff;
 }
 
 section#home {
@@ -80,7 +89,7 @@ footer {
   color: #fff;
   font-size: 1.5rem;
 }
-
+/*Laptop or Disktop*/
 @media only screen and (max-width: 991px) {
   html {
     font-size: 56.25%;
@@ -90,7 +99,7 @@ footer {
     padding: 2.2rem 5rem;
   }
 }
-
+/* For Big Screen Mobile Phones */
 @media only screen and (max-width: 767px) {
   html {
     font-size: 50%;
@@ -129,6 +138,7 @@ footer {
   }
 }
 
+ /*  For Small Screen Mobile phones   */
 @media only screen and (max-width: 575px) {
   html {
     font-size: 46.87%;
@@ -142,7 +152,5 @@ footer {
     top: 65.18px;
     height: calc(100vh - 65.18px);
   }
-  nav li:hover{
-    border-bottom: 1px solid black;
-  }
+ 
 }
