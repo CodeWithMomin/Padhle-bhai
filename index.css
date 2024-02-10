@@ -16,7 +16,6 @@ html {
 header {
   position: fixed;
   width: 100%;
-  
   background-color: #fff;
   padding: 1rem 5rem;
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .2);
@@ -26,7 +25,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 nav ul {
@@ -34,16 +32,18 @@ nav ul {
   display: flex;
   gap: 2rem;
 }
-#logo{
+
+#logo {
   width: 145px;
-  height:40px ;
-  
+  height: 40px;
 }
+
 nav a {
   font-size: 1.4rem;
   text-decoration: none;
 }
-li{
+
+li {
   margin-inline: 20px;
 }
 
@@ -89,6 +89,7 @@ footer {
   color: #fff;
   font-size: 1.5rem;
 }
+
 /*Laptop or Disktop*/
 @media only screen and (max-width: 991px) {
   html {
@@ -99,6 +100,7 @@ footer {
     padding: 2.2rem 5rem;
   }
 }
+
 /* For Big Screen Mobile Phones */
 @media only screen and (max-width: 767px) {
   html {
@@ -130,13 +132,14 @@ footer {
     transition: 1s;
     gap: 0;
   }
-  li{
-    margin-block:  1.6rem;
+
+  li {
+    margin-block: 1.6rem;
   }
-  
+
 }
 
- /*  For Small Screen Mobile phones   */
+/*  For Small Screen Mobile phones   */
 @media only screen and (max-width: 575px) {
   html {
     font-size: 46.87%;
@@ -147,7 +150,7 @@ footer {
   }
 
   nav ul {
-    top:72.18px;
+    top: 72.18px;
     height: calc(100vh - 65.18px);
-  } 
+  }
 }
