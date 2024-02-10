@@ -35,16 +35,16 @@ nav ul {
   gap: 2rem;
 }
 #logo{
-  width: 200px;
-  height:65px ;
+  width: 145px;
+  height:40px ;
   
 }
 nav a {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   text-decoration: none;
 }
 li{
-  margin-inline: 30px;
+  margin-inline: 20px;
 }
 
 nav a#logo {
@@ -120,7 +120,7 @@ footer {
     backdrop-filter: blur(5em);
     position: fixed;
     left: -100vw;
-    top: 73.6px;
+    top: 75.6px;
     width: 100vw;
     height: calc(100vh - 73.6px);
     display: flex;
@@ -147,7 +147,7 @@ footer {
   }
 
   nav ul {
-    top: 65.18px;
+    top:72.18px;
     height: calc(100vh - 65.18px);
   } 
 }
