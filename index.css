@@ -16,15 +16,20 @@ html {
 header {
   
   width: 100%;
+  height: 60px;
   background-color: #fff;
   padding: 1rem 5rem;
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .2);
+  position: sticky;
+  top: 0;
 }
 
 nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
+
   
  
 }
@@ -82,13 +87,36 @@ nav ul.active {
   height: 800px;
   border-bottom: 1px solid  black;
 }
+/* css for carasoul slide bar*/
 .slidebar{
   width: 100%;
-  height: 350px;
-  border: 1px solid red;
+  height: 400px;
   
+  margin-top:5px;
+  background-image:url("images/lifemoto.jpg");
+  background-size: 100% 100%;
+  animation: slidebar 9s infinite step-end;
+  border-bottom: 1px solid black;
 }
 
+@keyframes slidebar {
+0%{
+background-image: url("images/threeC\'s.jpg");
+}
+25%{
+  background-image: url("images/steavejobs.jpg");
+}
+50%{
+  background-image: url("images/life.jpg");
+}
+75%{
+  background-image: url("images/Creati.jpg");
+}
+100%{
+  background-image: url("images/lifemoto.jpg");
+
+}
+}
 
 
 footer {
