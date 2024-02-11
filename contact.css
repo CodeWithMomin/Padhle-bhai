@@ -79,3 +79,10 @@ body {
   color: #fff;
   transition: ease .3s;
 }
+
+@media only screen and (max-width:575px) {
+  .contact-form {
+    width: 90vw;
+    height: 65vh;
+  }
+}
