@@ -1,11 +1,11 @@
 <div align='center'>
 
-<a href="https://gigabytewebstore.netlify.app"><img src="/image/gigabyte.png"></a>
+<a href="#"><img src="#"></a>
 
-<h1>Gigabyte </h1>
-<p>Gigabyte is a online electronic store made using HTML , CSS and JavaScript. <br>To try : <a href="https://gigabytewebstore.netlify.app">Click Here</a></p>
+<h1>Study Bro </h1>
+<p>Study Bro is a online website with notes and previous year question papers available. <br>To try : <a href="#">Click Here</a></p>
 
-<h4> <span> · </span> <a href="https://github.com/arsalan-kazmi/Gigabyte/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/arsalan-kazmi/Gigabyte/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/arsalan-kazmi/Gigabyte/issues"> Request Feature </a> </h4>
+<h4> <span> · </span> <a href="#"> Documentation </a> <span> · </span> <a href="#"> Report Bug </a> <span> · </span> <a href="#"> Request Feature </a> </h4>
 
 </div>
 
@@ -19,18 +19,18 @@
 
 ### :dart: Features
 
-- Online electronic store to make shopping easier.
+- Website with study material for each branch and every semester.
 
 ## Clone the project:
 
 ```bash
-https://github.com/arsalan-kazmi/Gigabyte
+https://github.com/CodeWithMomin/bhai-k-notes
 ```
 
 ## Visit site:
 
 ```bash
-https://gigabytewebstore.netlify.app
+https://studybroweb.netlify.app
 ```
 
-Project Link : [https://github.com/arsalan-kazmi/Gigabyte](https://github.com/arsalan-kazmi/Gigabyte)
+Project Link : [https://github.com/CodeWithMomin/bhai-k-notes](https://github.com/CodeWithMomin/bhai-k-notes)
