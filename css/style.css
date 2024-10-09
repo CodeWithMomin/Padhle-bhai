@@ -132,128 +132,6 @@ section {
     display: none;
 }
 
-.header .search-form {
-    position: absolute;
-    top: 110%;
-    right: -110%;
-    width: 50rem;
-    height: 5rem;
-    background: #fff;
-    border-radius: .5rem;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    box-shadow: var(--box-shadow);
-}
-
-.header .search-form.active {
-    right: 2rem;
-    transition: .4s linear;
-}
-
-.header .search-form input {
-    height: 100%;
-    width: 100%;
-    background: none;
-    text-transform: none;
-    font-size: 1.6rem;
-    color: var(--blue);
-    padding: 0 1.5rem;
-}
-
-.header .search-form label {
-    font-size: 2.2rem;
-    padding-right: 1.5rem;
-    color: var(--blue);
-    cursor: pointer;
-}
-
-.header .search-form label:hover {
-    color: var(--reddish);
-}
-
-.header .shopping-cart {
-    position: absolute;
-    top: 110%;
-    right: -110%;
-    padding: 1rem;
-    border-radius: .5rem;
-    box-shadow: var(--box-shadow);
-    width: 35rem;
-    background: #fff;
-}
-
-.header .shopping-cart.active {
-    right: 2rem;
-    transition: .4s linear;
-}
-
-.header .shopping-cart .box {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    position: relative;
-    margin: 1rem 0;
-}
-
-.header .shopping-cart .box img {
-    height: 7rem;
-}
-
-.header .shopping-cart .box .fa-trash {
-    font-size: 2rem;
-    position: absolute;
-    top: 50%;
-    right: 2rem;
-    cursor: pointer;
-    color: var(--light-color);
-    transform: translateY(-50%);
-}
-
-.header .shopping-cart .box .fa-trash:hover {
-    color: var(--reddish);
-}
-
-.header .shopping-cart .box .content h3 {
-    color: var(--blue);
-    font-size: 1.7rem;
-    padding-bottom: 1rem;
-}
-
-.header .shopping-cart .box .content span {
-    color: var(--light-color);
-    font-size: 1.6rem;
-}
-
-.header .shopping-cart .box .content .quantity {
-    padding-left: 1rem;
-}
-
-.header .shopping-cart .total {
-    font-size: 2.5rem;
-    padding: 1rem 0;
-    text-align: center;
-    color: var(--blue);
-}
-
-.header .shopping-cart .btn {
-    display: block;
-    text-align: center;
-    margin: 1rem;
-}
-
-.header .login-form {
-    position: absolute;
-    top: 110%;
-    right: -110%;
-    width: 35rem;
-    box-shadow: var(--box-shadow);
-    padding: 2rem;
-    border-radius: .5rem;
-    background: #fff;
-    text-align: center;
-}
-
 .register .box-container {
     display: flex;
     align-items: center;
@@ -269,16 +147,8 @@ section {
     text-align: center;
 }
 
-.header .login-form.active {
-    right: 2rem;
-    transition: .4s linear;
-}
 
-.header .login-form h3 {
-    font-size: 2.5rem;
-    text-transform: uppercase;
-    color: var(--blue);
-}
+
 
 .register .login-form h3 {
     font-size: 3.5rem;
@@ -286,16 +156,6 @@ section {
     color: var(--blue);
 }
 
-.header .login-form .box {
-    width: 100%;
-    margin: .7rem 0;
-    background: #eee;
-    border-radius: .5rem;
-    padding: 1rem;
-    font-size: 1.6rem;
-    color: var(--blue);
-    text-transform: none;
-}
 
 .register .login-form .box {
     width: 100%;
@@ -308,22 +168,12 @@ section {
     text-transform: none;
 }
 
-.header .login-form p {
-    font-size: 1.4rem;
-    padding: .5rem 0;
-    color: var(--light-color);
-}
-
 .register .login-form p {
     font-size: 1.7rem;
     padding: .7rem 0;
     color: var(--light-color);
 }
 
-.header .login-form p a {
-    color: var(--reddish);
-    text-decoration: underline;
-}
 
 .register .login-form p a {
     color: var(--reddish);
