@@ -1,0 +1,188 @@
+*,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        html, body {
+            height: 100%;             /* Ensure body and html take up full viewport height */
+            margin: 0;                /* Remove default margin */
+            overflow-x: hidden;       /* Disable vertical scroll */
+            /* background-color: beige; */
+        }
+        
+        header{
+            width: 100%;
+            height: 60px;
+            text-align: center;
+            padding-block: 10px;
+          
+            margin-block: 2px;
+            /* margin-inline: 2px ; */
+        }
+        header , a{
+            text-decoration: none;
+            color: black;
+            /* margin-inline: 10px; */
+            font-size: 25px;
+        }
+
+        a{
+            margin: 15px;
+        }
+        .heading{
+            /* text-align: center; */
+            margin-top: 20px;
+            font-size: 25px;
+            background-color: beige;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .section {
+            padding: 40px;
+            display: flex;
+            flex-wrap: wrap;                        /* Allows items to wrap to the next line */
+            justify-content: space-between;         /* Adds space between columns */
+        }
+        .section a{
+            color: white;
+            font-size: 20px;
+        }
+        .section div {
+            width: 30%;                             /* Each div takes up 48% of the row (two divs per row) */
+            background-color: #2e2d2d;              /* Style for individual divs */
+            padding: 20px;
+            margin: 10px 0;                         /* Add vertical spacing between rows */
+            text-align: center;
+            border: 1px solid #ccc;
+            border-radius:5px ;
+           
+            color: white;
+        }
+        .papersheading{
+            text-align: center;
+            font-size: 25px;
+            font-weight: bold;
+        }
+       
+            .thirdsemsubjects {
+                display: flex;          /* Use flexbox for layout */
+                flex-wrap: wrap;      /* Allow wrapping to the next line */
+                justify-content: center;
+                padding: 40px;      /* Compensate for child margins */
+            }
+    
+            .thirdsemsubjects div {
+                width: 30%;     
+                height: 20px;      /* Set each div to occupy roughly half the row */
+                box-sizing: border-box; /* Include padding/border in the element's total width */
+                margin: 1%;           /* Optional: Add margin for spacing between divs */
+                padding: 30px;        /* Optional: Add some padding for better appearance */
+                border: 1px solid #ccc; /* Optional: Add a border for visibility */
+                border-radius: 4px;   /* Optional: Add rounded corners */
+                display: flex;
+                justify-content: center;   /* Center text */
+                align-items: center;
+                color: white;
+                background-color: #2e2d2d;
+                font-size: 20px;
+                border-radius: 9px;
+            }
+            .fourthsemsubjects{
+                display: flex; 
+                justify-content: center;         /* Use flexbox for layout */
+                flex-wrap: wrap;      /* Allow wrapping to the next line */
+                
+                padding: 40px; 
+            }
+            .fourthsemsubjects div{
+                width: 30%;     
+                height: 20px;      /* Set each div to occupy roughly half the row */
+                box-sizing: border-box; /* Include padding/border in the element's total width */
+                margin: 1%;           /* Optional: Add margin for spacing between divs */
+                padding: 30px;        /* Optional: Add some padding for better appearance */
+                border: 1px solid #ccc; /* Optional: Add a border for visibility */
+                border-radius: 4px;   /* Optional: Add rounded corners */
+                display: flex;
+                justify-content: center;   /* Center text */
+                align-items: center;
+                color: white;
+                background-color: #2e2d2d;
+                font-size: 20px;
+                border-radius: 9px;
+            }
+            .fifthsemsubjects{
+                display: flex; 
+                justify-content: center;         /* Use flexbox for layout */
+                flex-wrap: wrap;      /* Allow wrapping to the next line */
+                
+                padding: 40px; 
+            }
+            .fifthsemsubjects div{
+                width: 30%;     
+                height: 20px;      /* Set each div to occupy roughly half the row */
+                box-sizing: border-box; /* Include padding/border in the element's total width */
+                margin: 1%;           /* Optional: Add margin for spacing between divs */
+                padding: 30px;        /* Optional: Add some padding for better appearance */
+                border: 1px solid #ccc; /* Optional: Add a border for visibility */
+                border-radius: 4px;   /* Optional: Add rounded corners */
+                display: flex;
+                justify-content: center;   /* Center text */
+                align-items: center;
+                color: white;
+                background-color: #2e2d2d;
+                font-size: 20px;
+                border-radius: 9px;
+            }
+            .sixthsemsubjects{
+                display: flex; 
+                justify-content: center;         /* Use flexbox for layout */
+                flex-wrap: wrap;      /* Allow wrapping to the next line */
+                
+                padding: 40px; 
+            }
+            .sixthsemsubjects div{
+                width: 30%;     
+                height: 20px;      /* Set each div to occupy roughly half the row */
+                box-sizing: border-box; /* Include padding/border in the element's total width */
+                margin: 1%;           /* Optional: Add margin for spacing between divs */
+                padding: 30px;        /* Optional: Add some padding for better appearance */
+                border: 1px solid #ccc; /* Optional: Add a border for visibility */
+                border-radius: 4px;   /* Optional: Add rounded corners */
+                display: flex;
+                justify-content: center;   /* Center text */
+                align-items: center;
+                color: white;
+                background-color: #2e2d2d;
+                font-size: 20px;
+                border-radius: 9px;
+            }
+            .seventhsemsubjects{
+                display: flex; 
+                justify-content: center;         /* Use flexbox for layout */
+                flex-wrap: wrap;      /* Allow wrapping to the next line */
+                
+                padding: 40px; 
+            }
+            .seventhsemsubjects div{
+                width: 30%;     
+                height: 20px;      /* Set each div to occupy roughly half the row */
+                box-sizing: border-box; /* Include padding/border in the element's total width */
+                margin: 1%;           /* Optional: Add margin for spacing between divs */
+                padding: 30px;        /* Optional: Add some padding for better appearance */
+                border: 1px solid #ccc; /* Optional: Add a border for visibility */
+                border-radius: 4px;   /* Optional: Add rounded corners */
+                display: flex;
+                justify-content: center;   /* Center text */
+                align-items: center;
+                color: white;
+                background-color: #2e2d2d;
+                font-size: 20px;
+                border-radius: 9px;
+            }
+        
+        
