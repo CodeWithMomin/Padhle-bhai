@@ -2,8 +2,8 @@
 
 <a href="#"><img src="#"></a>
 
-<h1>Study Bro </h1>
-<p>Study Bro is a online website with notes and previous year question papers available. <br>To try : <a href="#">Click Here</a></p>
+<h1>Padle Bhai </h1>
+<p>Padle Bhai is a online website with notes and previous year question papers available. <br>To try : <a href="#">Click Here</a></p>
 
 <h4> <span> · </span> <a href="#"> Documentation </a> <span> · </span> <a href="#"> Report Bug </a> <span> · </span> <a href="#"> Request Feature </a> </h4>
 
