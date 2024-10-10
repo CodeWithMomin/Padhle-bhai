@@ -84,6 +84,10 @@ section {
     justify-content: left;
 }
 
+.none {
+    display: none;
+}
+
 .header {
     position: fixed;
     top: 0;
