@@ -1,9 +1,9 @@
 <div align='center'>
 
-<a href="#"><img src="#"></a>
+<a href="https://padhlebhai.netlify.app"><img src="#"></a>
 
 <h1>Padhle Bhai </h1>
-<p>Padhle Bhai is a online website with notes and previous year question papers available. <br>To try : <a href="#">Click Here</a></p>
+<p>Padhle Bhai is a online website with notes and previous year question papers available. <br>To try : <a href="https://padhlebhai.netlify.app">Click Here</a></p>
 
 <h4> <span> · </span> <a href="#"> Documentation </a> <span> · </span> <a href="#"> Report Bug </a> <span> · </span> <a href="#"> Request Feature </a> </h4>
 
@@ -24,13 +24,13 @@
 ## Clone the project:
 
 ```bash
-https://github.com/CodeWithMomin/bhai-k-notes
+https://github.com/CodeWithMomin/Padhle-Bhai
 ```
 
 ## Visit site:
 
 ```bash
-https://studybroweb.netlify.app
+https://padhlebhai.netlify.app
 ```
 
-Project Link : [https://github.com/CodeWithMomin/bhai-k-notes](https://github.com/CodeWithMomin/bhai-k-notes)
+Project Link : [https://github.com/CodeWithMomin/bhai-k-notes](https://github.com/CodeWithMomin/Padhle-Bhai)
