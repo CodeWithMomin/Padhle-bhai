@@ -1,6 +1,6 @@
 <div align='center'>
 
-<a href="https://padhlebhai.netlify.app"><img src="#"></a>
+<a href="https://padhlebhai.netlify.app"><img src="/icons/banner.png"></a>
 
 <h1>Padhle Bhai </h1>
 <p>Padhle Bhai is a online website with notes and previous year question papers available. <br>To try : <a href="https://padhlebhai.netlify.app">Click Here</a></p>
@@ -33,4 +33,4 @@ https://github.com/CodeWithMomin/Padhle-Bhai
 https://padhlebhai.netlify.app
 ```
 
-Project Link : [https://github.com/CodeWithMomin/bhai-k-notes](https://github.com/CodeWithMomin/Padhle-Bhai)
+Project Link : [https://github.com/CodeWithMomin/Padhle-Bhai](https://github.com/CodeWithMomin/Padhle-Bhai)
