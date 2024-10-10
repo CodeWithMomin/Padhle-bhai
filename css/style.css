@@ -71,6 +71,19 @@ section {
     color: #fff;
 }
 
+.dlink {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--reddish);
+    font-weight: normal;
+}
+
+.d-pyq {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
 .header {
     position: fixed;
     top: 0;
@@ -447,6 +460,10 @@ section {
 
     .heading {
         font-size: 2.5rem;
+    }
+
+    .dlink {
+        font-size: 2rem;
     }
 
     .footer {
