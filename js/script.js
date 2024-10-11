@@ -6,7 +6,7 @@ document.querySelector("#menu-btn").onclick = () => {
 
 window.onscroll = () => {
   navbar.classList.remove("active");
-  bullshit.classList.remove("active");
+  //bullshit.classList.remove("active");
 };
 
 var audio = new Audio("/icons/super30.mp3");
