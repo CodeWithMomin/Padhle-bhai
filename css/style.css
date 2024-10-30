@@ -78,6 +78,10 @@ section {
     font-weight: normal;
 }
 
+.dlink:hover {
+    text-decoration: underline;
+}
+
 .d-pyq {
     display: flex;
     flex-direction: column;
