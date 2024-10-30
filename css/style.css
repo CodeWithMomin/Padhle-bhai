@@ -263,49 +263,7 @@ section {
     padding: 1rem 0;
 }
 
-#noti{
-    background-color: #fff;
-    height: 300px;
-    margin: 30px;
-    display: flex;
-    justify-content: center;
-    padding: 3rem 2rem;
-}
- .sidebar ,.notibar{
-    width: 50%;
-    height: 100%;
-    border: 1px solid rgb(199, 198, 201);
-    margin-inline: 2px;
-    border-radius: 5px;
-    
-}
-.notiheading{
-    
-    color: blue;
-    font-size: 30px;
-    text-align: center;
-    
 
-}
-.new-label{
-    color: red;
-    font-size: 0.5em;
-    position: relative;
-    animation: pulse 2s infinite;
-    font-family: cursive;
-  }
-
-  @keyframes pulse {
-    0% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.2);
-    }
-    100% {
-      transform: scale(1);
-    }
-  }
 .review .review-slider {
     padding: 1rem;
 }
